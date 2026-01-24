@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Java/Java程序基础/运算.md",
+                "file": "Java/面对对象/方法.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "运算"
+              "title": "方法"
             }
           }
         ]
@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "179a98901c19fec2",
@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -170,31 +170,55 @@
               "icon": "bot-message-square",
               "title": "Copilot Chat"
             }
+          },
+          {
+            "id": "ee869c81903c0bc1",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 357.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:新建数据库": false,
-      "switcher:打开快速切换": false,
-      "graph:查看关系图谱": false,
-      "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
-      "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bd0a96033d804908",
+  "active": "ee869c81903c0bc1",
   "lastOpenFiles": [
-    "Java/Java程序基础/变量和数据类型.md",
+    "Java/数组处理/命令行参数.md",
+    "Java/面对对象/方法.md",
+    "Java/面对对象",
+    "Java/Untitled.md",
+    "Java/数组处理/二维数组.md",
+    "Java/数组处理/遍历数组.md",
+    "Java/数组处理/数组的排序.md",
+    "Java/流程控制/break 和 continue.md",
+    "Java/数组处理",
+    "Java/流程控制/while循环和do while和for循环.md",
+    "Java/流程控制/Switch多重选择.md",
+    "Java/流程控制/If条件判断.md",
+    "Java/流程控制/输入和输出.md",
+    "Java/Java程序基础/数组类型.md",
+    "Java/流程控制",
     "Java/Java程序基础/运算.md",
+    "Java/Java程序基础/变量和数据类型.md",
     "Java/Java程序基础/Java程序的基本结构.md",
     "未命名.base",
     "copilot/copilot-custom-prompts/Summarize.md",
@@ -208,18 +232,10 @@
     "copilot/copilot-custom-prompts/Make longer.md",
     "copilot/copilot-custom-prompts/Make shorter.md",
     "copilot/copilot-custom-prompts/Emojify.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Java/未命名",
-    "Java/第一个Java程序.md",
     "Java/Java程序基础",
-    "Java/Java程序基础.md",
-    "Java",
-    "创建链接.md",
-    "欢迎.md"
+    "Java"
   ]
 }
